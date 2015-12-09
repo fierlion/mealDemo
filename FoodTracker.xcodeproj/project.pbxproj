@@ -13,6 +13,7 @@
 		EBCB521E1C17681A00BCF4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCB521D1C17681A00BCF4CD /* Assets.xcassets */; };
 		EBCB52211C17681A00BCF4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCB521F1C17681A00BCF4CD /* LaunchScreen.storyboard */; };
 		EBCB522C1C17681A00BCF4CD /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB522B1C17681A00BCF4CD /* FoodTrackerTests.swift */; };
+		EBCB52371C179DE400BCF4CD /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB52361C179DE400BCF4CD /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EBCB52271C17681A00BCF4CD /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCB522B1C17681A00BCF4CD /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		EBCB522D1C17681A00BCF4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCB52361C179DE400BCF4CD /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EBCB52161C17681A00BCF4CD /* AppDelegate.swift */,
 				EBCB52181C17681A00BCF4CD /* ViewController.swift */,
 				EBCB521A1C17681A00BCF4CD /* Main.storyboard */,
+				EBCB52361C179DE400BCF4CD /* RatingControl.swift */,
 				EBCB521D1C17681A00BCF4CD /* Assets.xcassets */,
 				EBCB521F1C17681A00BCF4CD /* LaunchScreen.storyboard */,
 				EBCB52221C17681A00BCF4CD /* Info.plist */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCB52191C17681A00BCF4CD /* ViewController.swift in Sources */,
+				EBCB52371C179DE400BCF4CD /* RatingControl.swift in Sources */,
 				EBCB52171C17681A00BCF4CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
