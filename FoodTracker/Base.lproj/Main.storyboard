@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="305" y="429"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Meal Table View Controller-->
         <scene sceneID="lD9-5J-Ub5">
             <objects>
-                <tableViewController id="7BM-GK-uZU" sceneMemberID="viewController">
+                <tableViewController id="7BM-GK-uZU" customClass="MealTableViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="b8i-JR-RM2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,6 +120,11 @@
                                     <animations/>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <outlet property="nameLabel" destination="yC8-fd-Bso" id="BS9-Gv-q17"/>
+                                    <outlet property="photoImageView" destination="kcc-3N-iaK" id="svg-dY-eh3"/>
+                                    <outlet property="ratingControl" destination="p3o-cS-MK6" id="xYr-n0-aaH"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
